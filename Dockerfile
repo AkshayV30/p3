@@ -1,9 +1,9 @@
 FROM node:18-alpine3.16
 
-WORKDIR '/usr/app'
+WORKDIR '/app'
 
-COPY ./package.json /usr/app
+COPY ./package.json /app
 RUN npm install
+COPY . /app
 
-COPY . /usr/app
 CMD ["npm","start"]
