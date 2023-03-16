@@ -7,7 +7,7 @@ A simple web app using NodeJs
 5. update index.js
 6. create Docker file
 7. create DockerCompose.yaml file
-
+8. update indexjs to coonect redis server
 ----------------
 to be done
 - creating pipeline to deploy resources in aws using terraform
